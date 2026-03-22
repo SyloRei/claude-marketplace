@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sylorei-plugins",
+  "owner": { "name": "sylorei" },
+  "plugins": [
+    {
+      "name": "claude-godmode",
+      "description": "Production-grade engineering workflow: 8 agents, 8 skills, hooks, quality gates, and feature pipeline",
+      "source": { "source": "github", "repo": "SyloRei/claude-godmode" },
+      "version": "1.0.0",
+      "author": { "name": "sylorei" },
+      "license": "MIT",
+      "keywords": ["workflow", "agents", "pipeline", "engineering"],
+      "category": "development"
+    }
+  ]
+}
